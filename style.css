@@ -44,6 +44,7 @@ nav{
 }
 .header-info h1 .italic{
     font-style: italic;
+    font-weight: bold;
 }
 .header-info p{
     font-size: 22px;
@@ -71,4 +72,73 @@ header {
     align-items: center;
     text-align: center;
     padding: 100px 0;
+}
+
+/* speaker part start */
+
+/* Whole section */
+section{
+    padding: 80px;
+}
+
+/* Section heading */
+.speaker-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.speaker-text h2{
+    font-size: 56px;
+    color: #000102;
+    font-weight: bold;
+}
+
+/* Grid container */
+.speaker-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+/* Individual card */
+.speaker-card-info{
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Image */
+.speaker-card-info img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Category */
+.speaker-card-info .first{
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Name */
+.speaker-card-info h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* Description */
+.speaker-card-info .second{
+    color: #575757;
+    font-size: 14px;
+
+}
+.information{
+    text-align: left;
+    margin: 30px 30px;
 }
